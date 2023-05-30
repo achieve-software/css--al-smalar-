@@ -1,0 +1,42 @@
+/* TRANSFORM Bir öğenin döndürülmesi yana yatırılması konumunun değiştirilmesi gibi özellikler transform ile verilir.*/
+
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: yellow;
+  border-top: 5px solid red;
+  width: 150px;
+  height: 150px;
+  transition: all 1s ease-in-out;
+  
+}
+
+.box:hover {
+
+    transform: rotate(180deg);
+  transform: rotate(90deg);
+   transform: rotate(45deg);
+  transform: rotate(-45deg);
+
+  /* transform: skew(30deg); skew:bükülme
+  transform: skew(-30deg);
+  transform: skew(); */
+
+  /* transform: scale(3);  */
+  /* 3e katlar */
+
+  /* transform: translateX(100px); */
+  /* transform: translateX(-100px); */
+  /* transform: translateY(-100px);
+  transform: translateY(100px);
+  transform: translate(100px,100px);
+  transform: rotateX(180deg);
+  transform: rotatey(180deg); */
+
+}

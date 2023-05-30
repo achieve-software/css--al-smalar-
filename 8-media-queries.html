@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: gray;
+      }
+      @media (min-width: 400px) {
+        /* min 400 ve üstü kastedilir */
+        body {
+          background-color: green;
+        }
+      }
+
+      @media(min-width: 600px) and (max-width:700px) {
+        body{
+            background-color: red;
+        }
+      }
+
+/* landscape yatay ekran için min-width:576px verilir. */
+/* tabletler için min-width:768px verilir. */
+/* pcler için min-width:992px verilir. */
+/* Geniş ekranlar (Large) için min-width:1200px verilir. */
+/* Tv gibi daha geniş ekranlar (XLarge) için min-width:1400px verilir. */
+
+    </style>
+  </head>
+  <body>
+    <!-- head kısmındaki meta viewport önemli  -->
+  </body>
+</html>
